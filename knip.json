@@ -1,0 +1,23 @@
+{
+  "ignore": [
+    "./package.json",
+    "./.eslintrc.js",
+    "./metro.config.js",
+    "./react-native.config.js",
+    "./ios/**/*",
+    "./android/**/*",
+    "./index.js"
+  ],
+  "ignoreBinaries": ["lint-staged", "pod"],
+  "ignoreUnresolved": true,
+  // for fsd:
+  "entry": [
+    "./src/app/**/*",
+    "./src/entities/*",
+    "./src/features/*",
+    "./src/navigation/*",
+    "./src/screens/**",
+    "./src/widgets/*",
+    "./src/shared/**/*"
+  ]
+}
